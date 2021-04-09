@@ -6,7 +6,7 @@ categories: structures java tutorial
 language: es
 image: /assets/images/posts/family-tree.jpg
 ---
-Quizá ya habrás implementado un árbol binario en java, lo cual es fácil. Por otra parte, los áboles n-arios se caracterizan por la posibilidad de tener n hijos.
+Quizá ya habrás implementado un árbol binario en java, lo cual es fácil. Por otra parte, los áboles n-arios se caracterizan por la posibilidad de tener n hijos. A continuación crearemos una aplicación a este tipo de dato con árboles genealógicos.
 
 - [Árboles n-arios o generales](#árboles-n-arios-o-generales)
 - [Árbol genealógico](#árbol-genealógico)
@@ -91,7 +91,7 @@ Cuando leemos línea por línea podemos obtener su padre y el valor del nodo y e
 
 Para guardar los árboles también nos valemos del puntero al nodo padre. De esta forma solo hay que recorrer el árbol entero en pre-orden e ir concatenando el padre y el valor del nodo según el formato especificado.
 
-<img src="./assets/tree-traversal.png" style="display:block; margin-left: auto; margin-right:auto;" alt="Recorrido de árbol en pre-orden">
+<img src="./assets/tree-traversal.png" style="display:block; margin-left: auto; margin-right:auto;" width="500px" alt="Recorrido de árbol en pre-orden">
 
 Los métodos de búsqueda, remoción, profundidad y modificación pueden ser consultados en la clase [Tree](./ArbolGen/src/CapaNegocio/Tree.java).
 
